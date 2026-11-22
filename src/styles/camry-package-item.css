@@ -1,0 +1,118 @@
+.camry-package__item {
+  border: 1px solid #7c8a9736;
+  padding: 20px;
+  border-radius: 5px;
+}
+.camry-package__img{
+  height: 121px;
+}
+
+.camry-package__item-info span i {
+  color: #f9a826;
+  font-size: 1.1rem;
+}
+
+.camry-package__item-btn {
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background: #000d6b;
+  padding: 8px 0px;
+}
+
+.camry-package__item-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.camry-package__item-btn a:hover {
+  color: #fff;
+}
+.camry-package__btn-details {
+  background: #f9a826;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.camry-package__btn-rent {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.camry-package__item-content h4 {
+  font-size: 1.8rem;
+}
+
+.camry-package__item-content h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.camry-package__item-content {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000d6b;
+}
+
+@media only screen and (max-width: 992px) {
+  .camry-package__item h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  .camry-package__item h6 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .camry-package__item-info {
+    flex-wrap: wrap;
+  }
+
+  .camry-package__item-info span {
+    font-size: 0.8rem;
+    justify-content: space-between;
+  }
+
+  .camry-package__item-btn {
+    padding: 10px 2px;
+    font-size: 0.6rem;
+  }
+     .camry-package__img {
+      height: 55px;
+    } 
+        .camry-package__img--bus {
+          height: 177px;
+        }
+                .camry-package__img--coster {
+                  height: 190px;
+                }
+                                .camry-package__img--hiace {
+                                  height: 200px;
+                                }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .camry-package__item h4 {
+    font-size: 1rem;
+  }
+
+  .camry-package__item h6 {
+    font-size: 0.9rem;
+  }
+
+  .camry-package__item-info span {
+    font-size: 0.7rem;
+  }
+
+  .camry-package__item-info span i {
+    font-size: 0.9rem;
+  }
+
+  .camry-package__item-btn {
+    font-size: 0.8rem;
+  }
+    .camry-package__img {
+      height: 120px;
+    }
+}
